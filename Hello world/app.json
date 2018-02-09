@@ -5,9 +5,25 @@
     "pages/demo/demo"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"drak",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/images/pirate_panda_48px_1133851_easyicon.net.png",
+      "selectedIconPath": "pages/images/pirate_panda_48px_1133851_easyicon.net.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "pages/images/pirate_panda_48px_1133851_easyicon.net.png",
+      "selectedIconPath": "pages/images/pirate_panda_48px_1133851_easyicon.net.png"
+    }]
   }
 }
