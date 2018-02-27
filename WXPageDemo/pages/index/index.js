@@ -15,9 +15,9 @@ Page({
       url: '../logs/logs'
     })
   },
-  bindViewDemo: function() {
+  jumpToMyPage: function() {
     wx.navigateTo({
-      url: '../demo/demo',
+      url: '../demo_page105/demo_page105',
     })
   },
   onLoad: function () {
@@ -55,12 +55,5 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  },
-  onShareAppMessage: function(e) {
-    console.log(e)
-    return{
-      title: 'my Page',
-      path: 'pages/logs/logs'
-    }
   }
 })

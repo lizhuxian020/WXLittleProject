@@ -1,0 +1,7 @@
+<!--wx-key-demo.wxml  -->
+<switch wx:for="{{objectArray}}" wx:key="unique" style='display: block'>{{item.id}}</switch>
+<button bindtap='zx_switch'>switch</button>
+<button bindtap='zx_addToFront'> add to the front</button>
+
+<switch wx:for='{{numberArray}}' wx:key='*this' style='display: block'>{{item}}</switch>
+<button bindtap='addNumberToFront'> add to the front</button>

@@ -1,0 +1,14 @@
+<!-- demo_page105.wxml -->
+<view class = "section section_gap">
+  <view class='section__title'>表单组件在label内</view>
+  <checkbox-group class = 'group' bindchange = 'checkboxChange'>
+    <view class='label-1' wx:for = "{{checkboxItems}}" wx:key="{{value}}">
+      <label>
+        <checkbox hidden value='{{item.name}}' checked='{{item.checked}}'></checkbox>
+        <view class='label-1__icon'>
+          <view class='label-1__icon-checked' style='opacity:{{item.checked?1:0}}'></view>
+        </view>
+      </label>
+    </view>
+  </checkbox-group>
+</view>
