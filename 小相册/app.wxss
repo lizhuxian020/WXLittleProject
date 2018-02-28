@@ -1,0 +1,4 @@
+/**app.wxss**/
+.container {
+  background-color: #1c1b16
+} 

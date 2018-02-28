@@ -1,0 +1,15 @@
+<!--index.wxml  -->
+<view>
+  <view class="page-top">
+    <text class="username">恭喜你</text>
+    <text class='text-info'>成功搭建一个微信程序</text>
+    <view class='page-btn-wrap'>
+      <button class='page-btn' bindtap='goToAlbum'></button>
+    </view>
+  </view>
+  <view class='page-bottom'>
+    <text class='qr-txt'>分享二维码邀请好友一起来</text>
+    <image src='../../images/panda@6x.png' class='qr-img'></image>
+    <image src='../../images/panda@6x.png' class='page-logo'></image>
+  </view>
+</view>
